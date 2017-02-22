@@ -1,0 +1,71 @@
+<doctype html>
+<html>
+    <head>
+        <title> Donation Form </title>
+        <link href="app.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>Donation Web Page</header>  
+                <aside>
+        <!-- <img src="http://lorempixel.com/400/200/sports/"/>  -->
+
+            <h1><u> Make a donation below </u></h1>
+                <p style=" color: red; text-align: center;"> Please fill out the required * fields below </p>
+                <form action="/my-first_form.html" method="GET">
+                    <fieldset> 
+                <!-- personal information -->        
+                    <legend> Personal Information </legend> 
+                <div>
+                    <label for="name">*First Name:</label>
+                    <input type="text" size="30" maxlength="100" id="name" name="first_name">   
+                </div>          
+                <div>
+                    <label for="name">*Last Name:</label>
+                    <input type="text" size="30" maxlength="100" id="name" name="last_name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="text"  size="30" maxlength="100" id="email" name="email">
+                </div> 
+                    </fieldset>
+               </aside>        
+                <br>
+                    <fieldset>
+                <!-- address information -->                         
+                    <legend> Address info </legend>
+                <div>    
+                    <label for="address">*Address:</label>
+                    <input type="text" size="30" maxlength="100" id="address" name="address">
+                </div>
+                <div> 
+                    <label for="address2">* Address 2:</label>
+                    <input type="text" size="30" maxlength="100" id="address2" name="address2">
+                </div>
+                <div>
+                    <label for="city">* City:</label>
+                    <input type="text" size="30" maxlength="100" id="city" name="city">
+                </div>
+                <div>
+                    <label for="state">*State:</label>
+                    <input type="text" size="30" maxlength="100" id="state" name="state">
+                </div>
+                <div>
+                    <label for="zip">*Zip:</label>
+                    <input type="text" size="30" maxlength="100" id="zip" name="zip">
+                </div>
+                <br>
+                    </fieldset>
+                <br>    
+                    <fieldset>
+                <!-- donation information -->                         
+                    <legend> Donation Details </legend>
+                    <label for="donation amt.">Amount:</label>
+                    <input type="text" size="30" maxlength="100" id="amount" name="donation_amt">
+                <br>
+                    </fieldset>
+            </form>
+            <footer>
+                Copyright 2017
+            </footer>  
+        </body>
+</html>
