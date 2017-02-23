@@ -11,3 +11,10 @@ aside {
 h1 {
     color: darkblue;
 }
+input:checked{
+    position: relative;
+    text-align: right;
+}
+#paragragh1 {
+    color:darkgoldenrod;
+}
