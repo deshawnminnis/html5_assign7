@@ -6,25 +6,25 @@
     </head>
     <body>
         <header>Donation Web Page</header>  
-                <aside>
+            <aside>
         <!-- <img src="http://lorempixel.com/400/200/sports/"/>  -->
-            <h1><u> Make a donation below </u></h1>
-                <p style=" color: red; text-align: center;"> Please fill out the required * fields below </p>
-                <form action="/my-first_form.html" method="GET">
+            <h1>Make A Donation Below</h1>
+            <p style=" color: red; text-align: center;"> Please fill out the required * fields below </p>
+            <form action="/my-first_form.html" method="GET">
                     <fieldset> 
                 <!-- personal information -->        
-                    <legend> Personal Information </legend> 
+                        <legend> Personal Information </legend> 
                 <div>
-                    <label for="name">*First Name:</label>
-                    <input type="text" size="30" maxlength="100" id="name" name="first_name">   
+                        <label for="lname">*First Name:</label>
+                        <input type="text" size="30" maxlength="100" id="fname" name="first_name">   
                 </div>          
                 <div>
-                    <label for="name">*Last Name:</label>
-                    <input type="text" size="30" maxlength="100" id="name" name="last_name">
+                        <label for="lname">*Last Name:</label>
+                        <input type="text" size="30" maxlength="100" id="lname" name="last_name">
                 </div>
                 <div>
-                    <label for="email">Email:</label>
-                    <input type="text"  size="30" maxlength="100" id="email" name="email">
+                        <label for="email">*Email:</label>
+                        <input type="text" size="30" maxlength="100" id="email" name="email">
                 </div> 
                     </fieldset>     
                 <br>
@@ -32,40 +32,49 @@
                 <!-- address information -->                         
                     <legend> Address info </legend>
                 <div>    
-                    <label for="address">*Address:</label>
-                    <input type="text" size="30" maxlength="100" id="address" name="address">
+                        <label for="address">*Address:</label>
+                        <input type="text" size="30" maxlength="100" id="address" name="address">
                 </div>
                 <div> 
-                    <label for="address2">* Address 2:</label>
-                    <input type="text" size="30" maxlength="100" id="address2" name="address2">
+                        <label for="address2">*Address 2:</label>
+                        <input type="text" size="30" maxlength="100" id="address2" name="address2">
                 </div>
                 <div>
-                    <label for="city">* City:</label>
-                    <input type="text" size="30" maxlength="100" id="city" name="city">
+                        <label for="city">* City:</label>
+                        <input type="text" size="30" maxlength="100" id="city" name="city">
                 </div>
                 <div>
-                    <label for="state">*State:</label>
-                    <input type="text" size="30" maxlength="100" id="state" name="state">
+                        <label for="state">*State:</label>
+                        <input type="text" size="30" maxlength="100" id="state" name="state">
                 </div>
                 <div>
-                    <label for="zip">*Zip:</label>
-                    <input type="text" size="30" maxlength="100" id="zip" name="zip">
+                        <label for="zip">*Zip:</label>
+                        <input type="textarea" size="30" maxlength="100" id="zip" name="zip">
                 </div>
-                <br>
                     </fieldset>
                 <br>    
                     <fieldset>
                 <!-- donation information -->                         
-                    <legend> Donation Details </legend>
-                    <label for="donation amt.">Amount:</label>
-                    <input type="text" size="30" maxlength="100" id="amount" name="donation_amt">
+                        <legend> Donation Details </legend>
+                        <label for="donation amt.">*Amount:</label>
+                        <input type="text" size="30" maxlength="100" id="amount" name="donation_amt">
                     </fieldset>
-                <br>    
+                <br> 
+                <div>
+                        <input type="submit" id="submit btn" value="Submit">
+                        <!--= <button onclick="myFunction()" id="submit">Submit</button>
+                        <script> 
+                        function myFunction() {
+
+                        }
+                        </script> -->                        
+                </div>        
+                <br>   
                 <div>  
-                    <label for "email updates">Sign me up for email updates</label>
-                    <input type="checkbox" id="email updates" name="chk_email_upd">
+                        <label for "email updates">Sign me up for email updates</label>
+                        <input type="checkbox" id="email updates" name="chk_email_upd">
                 </div>
-                </aside>       
+            </aside>       
             </form>
             <footer>
                 Copyright 2017
